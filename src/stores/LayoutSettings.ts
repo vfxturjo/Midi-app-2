@@ -16,7 +16,9 @@ export let separatorSizeGlobal = persisted("separatorWidthGlobal", 2);
 
 export const layoutComponents = {
   Hsplitter: {
+    // ^----- use this name for referring. programming name
     name: "H Split",
+    // ^----- use this name for showing in UI, beautiful name
     component: () => import("../lib/testing/newHsplitterLoader.svelte"),
   },
   Vsplitter: {
@@ -26,5 +28,21 @@ export const layoutComponents = {
   HelloWorld: {
     name: "Hello World",
     component: () => import("../lib/testing/hello world.svelte"),
+  },
+  Error: {
+    name: "error module",
+    component: () => import("../lib/JSON interface/Machines/error.svelte"),
+  },
+};
+
+export const machineComponents = {
+  helloWorld2: {
+    name: "Hello World",
+    component: () =>
+      import("../lib/JSON interface/Machines/Hello World 2.svelte"),
+  },
+  error: {
+    name: "error module",
+    component: () => import("../lib/JSON interface/Machines/error.svelte"),
   },
 };

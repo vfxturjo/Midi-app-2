@@ -1,16 +1,18 @@
 <script lang="ts">
+import Apatotoapp from "./lib/JSON interface/apatoto app.svelte";
+import MachineLoader from "./lib/testing/MachineLoader.svelte";
 // ! create main interface
-import Testing from "./lib/testing/MachineLoader.svelte";
-
 // import AvailableEvents from "./lib/Available events/available events.svelte";
 </script>
 
-<main>
+<!-- <main> -->
+<main class="h-screen w-screen flex flex-1">
+  <Apatotoapp />
+  <!-- <MachineLoader /> -->
+
   <!--  -->
   <!-- <AvailableEvents /> -->
-  <div class="h-screen w-screen flex flex-1">
-    <Testing />
-  </div>
+
   <!-- <CreatingLayout /> -->
   <!--  -->
 </main>
