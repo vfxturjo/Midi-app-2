@@ -33,10 +33,14 @@
   "dependencies": {
     "@jridgewell/sourcemap-codec": "^1.4.14",
     "@popperjs/core": "^2.11.6",
+    "gl-spectrogram": "^1.1.8",
     "pepjs": "^0.5.3",
+    "spectrogram": "^0.0.7",
+    "svelte-css-vars": "^0.0.3",
     "svelte-json-tree": "^1.0.0",
     "svelte-local-storage-store": "^0.4.0",
     "svelte-material-ui": "7.0.0-beta.0",
-    "svelte-split-pane": "^0.1.2"
+    "svelte-split-pane": "^0.1.2",
+    "svelte-splitpanes": "^0.7.12"
   }
 }
